@@ -1,0 +1,118 @@
+.list_enterprises{
+    overflow: visible;
+}
+
+.switch_enterprises {
+    margin-top: 60px;
+}
+
+#map{
+    margin-top: 40px;
+    width: 100%;
+    height: 690px;
+}
+
+.select-list{
+    top: 34px !important;
+    overflow-y: auto !important;
+    height: 400px !important;
+    width: 99.4%;
+}
+
+
+/** Предприятия на карте **/
+
+.enterprises_map_block {
+
+}
+
+.enterprise_ballon {
+    width: 250px;
+    text-align: left;
+    margin: 15px 15px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.enterprise_ballon .ballon__name {
+
+}
+
+.enterprise_ballon .ballon__name a {
+    color: #000;
+    font-weight: bold;
+}
+
+.enterprise_ballon .ballon__name a:hover {
+    color: #dd0103;
+}
+
+.enterprise_ballon .ballon__category {
+    margin-top: 3px;
+}
+
+.enterprise_ballon .ballon__category span {
+    color: #727f89;
+}
+
+.enterprise_ballon .ballon__address {
+    margin-top: 12px;
+}
+
+.enterprise_ballon .ballon__address span {
+
+}
+
+.enterprise_ballon .ballon__phone {
+    margin-top: 3px;
+}
+
+.enterprise_ballon .ballon__phone span {
+
+}
+
+.enterprise_ballon .ballon__email {
+    margin-top: 3px;
+}
+
+.enterprise_ballon .ballon__email a {
+    color: #597185;
+}
+
+.enterprise_ballon .ballon__email a:hover {
+    color: #dd0103;
+}
+
+.enterprise_ballon .ballon__site {
+    margin-top: 3px;
+}
+
+.enterprise_ballon .ballon__site a {
+    color: #597185;
+}
+
+.enterprise_ballon .ballon__site a:hover {
+    color: #dd0103;
+}
+
+.enterprise_ballon .ballon__site a + a {
+    border: none;
+}
+
+.clustermark {
+    color: #FFFFFF;
+    margin-top: -7px;
+    font-family: DINPro-Bold;
+}
+
+.clustermark_small {
+    font-size: 16px;
+}
+
+.clustermark_medium {
+    font-size: 19px;
+}
+
+.clustermark_big {
+    font-size: 24px;
+}

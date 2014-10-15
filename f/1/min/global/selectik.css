@@ -1,0 +1,223 @@
+/* Styles for custom selects */
+.done select{
+    height:1px;
+    width:1px;
+    border:none;
+    background:none;
+    padding:0;
+    margin:0;
+    position: relative;
+    left:-2px;
+    z-index: -10;
+    outline:none;
+    -webkit-appearance: none;
+}
+.select-list{
+    position: absolute;
+    left: 0;
+}
+
+.custom-select{
+    z-index:  1
+}
+
+.custom-select *{
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -o-user-select:none;
+    user-select:none;
+}
+.open_list{
+    z-index:  10;
+
+}
+.custom-select ul,
+.custom-select li{
+    margin: 0;
+    padding:  0;
+    list-style:  none
+}
+.custom-select,
+.custom-select ul{
+    position:  relative;
+    top: 0;
+    left: 0;
+}
+
+.custom-select ul{
+    width: 100% !important;
+    display: block;
+}
+.custom-select .custom-text{
+    cursor: pointer;
+    display: inline-block;
+    min-width: 285px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 34px;
+}
+.custom-select li{
+    cursor: pointer;
+    min-height:  25px;
+    padding: 4px 5px 4px 10px;
+}
+.select-scroll{
+    position:  absolute;
+    right: 2px;
+    top: 2px;
+    z-index:  2
+}
+.default-scroll ul{
+    overflow-y:  scroll
+}
+.custom-scroll{
+    overflow:  hidden
+}
+.scroll-drag{
+    display:  block;
+    position:  absolute;
+    left: 1px;
+    cursor: pointer
+}
+.disabled *{
+    cursor:             default !important
+}
+/* Style for example*/
+.custom-select{
+    font-family: Arial;
+    font-size:  14px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.custom-select .custom-text{
+    overflow:  hidden;
+    height: 34px;
+    padding:  0 0 0 10px;
+    line-height: 34px;
+    color: #000;
+    box-shadow: inset 0 0 1px rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0 0 1px rgba(0,0,0,0.5);
+    /* Shadow styles */
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(242,242,242,1)));
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+    background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 );
+    font-weight: bold;
+
+}
+
+.custom-select.open_list .custom-text{
+    background: rgb(226,230,232);
+    background: -moz-linear-gradient(top,  rgba(226,230,232,1) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(226,230,232,1)), color-stop(100%,rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top,  rgba(226,230,232,1) 0%,rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(top,  rgba(226,230,232,1) 0%,rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(226,230,232,1) 0%,rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom,  rgba(226,230,232,1) 0%,rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e6e8', endColorstr='#ffffff',GradientType=0 );
+
+}
+
+.custom-select .custom-text:after{
+    font-size:  15px;
+    position:  absolute;
+    top: 14px;
+    right: 12px;
+    display:  block;
+    content:  '';
+    float:  right;
+    width: 8px;
+    height: 8px;
+    z-index:2;
+    background-image: url("/f/1/media/select_conus.png");
+}
+.custom-select span.custom-text:hover,
+.active span.custom-text{
+
+}
+.select-list{
+    top: 34px;
+    width: 99%;
+    line-height: 25px;
+    padding:  0 0 0 10px;
+    color: #000;
+    background: rgb(255,255,255);
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(242,242,242,1)));
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+    background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 );
+    /* Shadow styles */
+    box-shadow: inset 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: inset 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: inset  0 1px 5px 0 rgba(0, 0, 0, 0.15);
+    border: 1px solid #c0c0c0;
+}
+.select-list.custom-scroll{
+    padding:  0;
+}
+
+.select-list li{
+    background: #FFF;
+    cursor: pointer;
+    color: #000;
+}
+.select-list li:hover{
+    background: #f0f3f5;
+}
+
+.select-list li.selected,
+.select-list li.selected:hover
+{
+    background: #eefaff;
+}
+
+.select-list li.disabled{
+    color: #CCCCCC;
+    cursor: default
+}
+.select-scroll{
+    background-color:	#FFF;
+    width: 12px;
+    -webkit-border-radius:2px;
+    -moz-border-radius: 2px;
+    border-radius: 		2px;
+}
+.scroll-drag{
+    top: 0;
+    width: 10px;
+    background-color:	#000;
+    -webkit-border-radius:2px;
+    -moz-border-radius: 2px;
+    border-radius: 		2px;
+}
+
+.maxlength .scroll-drag:after{
+    display:  block;
+    content:  '≡';
+    font-size:  14px;
+    position:  relative;
+    left: 50%;
+    top: 50%;
+    margin: -14px 0 0 -4px
+}
+.custom-select .hover{
+    color: #FFF
+}
+.custom-select.disabled{
+    opacity:            0.5 !important;
+}

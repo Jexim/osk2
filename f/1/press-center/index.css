@@ -1,0 +1,27 @@
+/* Пресс-центр, начало
+-------------------------------------------------------------------------------------------------------------*/
+
+.press_center .news_three_blocks_one {
+    border-bottom: 1px solid #dfe2e4;
+}
+
+.press_center h2 {
+    margin-top: 70px;
+    font-family: 'DINPro-Regular';
+}
+
+.press_center .first_media_block h2 {
+    margin-top: 0;
+}
+
+.journalists {background: #000; text-align: center; padding: 34px 0 37px 0;}
+.journalists h3 {margin: 0 0 18px 0; width: 100%; max-width: none; color: #fff;}
+.journalists a {color: #fff; font-size: 18px; border-color: rgba(255, 255, 255, 0.3);}
+.journalists a:hover {border-color: #fff;}
+.journalists .phone {}
+.journalists .phone a {}
+.journalists .email {}
+.journalists .email a {border-style: dotted;}
+
+/* Пресс-центр, конец
+-------------------------------------------------------------------------------------------------------------*/

@@ -1,0 +1,16 @@
+.top_menu_transparent{
+    width: 100%;
+}
+
+
+#logo{
+    background: url('/f/1/media/logo-eng.png') no-repeat;
+}
+
+#footer-content{
+    height: auto;
+}
+
+.made-in .icon {
+	left: -147px;
+}

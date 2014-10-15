@@ -1,0 +1,32 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"About", 
+		"/en/about/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"First-person", 
+		"/en/about/first-person/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Board of directors", 
+		"/en/about/board-directors/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Management", 
+		"/en/about/management/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+);
+?>

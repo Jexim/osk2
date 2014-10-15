@@ -1,0 +1,130 @@
+.list_enterprises{
+    overflow: visible;
+}
+
+.switch_enterprises {
+    margin-top: 60px;
+}
+
+.list_by_name{
+    display: none;
+} 
+
+.list_by_city_desk{
+    display: none;
+}
+
+.select-list{
+    top: 34px !important;
+    overflow-y: auto !important;
+    max-height: 400px !important;
+    width: 99.4%;
+    height: auto !important;
+}
+
+/**Предприятия**/
+
+.gray-link {
+    color: #7d8e9d;
+    border-bottom: 1px dotted rgba(125, 142, 157, 0.3);
+    cursor: pointer;
+}
+
+.gray-link:hover {
+    color: #dd0103;
+    border-bottom: 1px dotted rgba(221, 1, 3, 0.3);
+}
+
+.enterprises_search_block {
+}
+
+.search_field_enterprises input[type="text"] {
+    width: 357px;
+}
+
+.search_field_enterprises{
+    float: left;
+    margin-right: 30px;
+    position: relative;
+}
+
+.search_field_enterprises .field button {
+    position: absolute;
+    right: -3px;
+    top: 0;
+}
+
+.select_field_enterprises {
+    float: left;
+}
+
+.switch_enterprises {
+    margin-top: 35px;
+}
+
+.switch_enterprises__name, .list_enterprises .item__name {
+    float: left;
+    width: 69%;
+    margin-right: 6%;
+}
+
+.switch_enterprises__city, .list_enterprises .item__city {
+    float: left;
+    width: 25%;
+}
+
+.switch_enterprises span {
+    font-size: 15px;
+}
+
+.list_enterprises {
+    padding-bottom: 65px;
+    overflow: hidden;
+}
+
+.list_enterprises .item {
+    margin-top: 40px;
+    clear: both;
+    overflow: hidden;
+}
+.list_enterprises .item__name {
+
+}
+.list_enterprises .item__name .title {
+
+}
+.list_enterprises .item__name .title a {
+    font-size: 18px;
+    color: #000;
+}
+.list_enterprises .item__name .title a:hover {
+    color: #dd0103;
+    border-color: rgba(221, 1, 3, 0.3);
+}
+.list_enterprises .item__name .category {
+    margin-top: 4px;
+}
+.list_enterprises .item__name .category span {
+    font-size: 15px;
+    color: #a2afb9;
+}
+.list_enterprises .item__city {
+
+}
+.list_enterprises .item__city span {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.switch_block {
+    float: left;
+    padding-right: 15px;
+    /*background: url(/images/sort-marker.png) no-repeat right 7px;*/
+}
+.switch_block_current_down {
+    background: url(/images/sort-marker.png) no-repeat right 7px;
+}
+
+.switch_block_current_up {
+    background: url(/images/sort-marker.png) no-repeat right -8px;
+}

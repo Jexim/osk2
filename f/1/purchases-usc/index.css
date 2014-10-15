@@ -1,0 +1,23 @@
+.section{
+    width: 100%;
+}
+
+th.headerSortUp {
+    background: url(/images/sort-up.png) no-repeat right center;
+}
+
+th.headerSortDown {
+    background: url(/images/sort-down.png) no-repeat right center;
+}
+
+.block_purchases_table .horizontal-table th, .horizontal-table td {width: 12%;}
+.block_purchases_table .horizontal-table th:first-child, .horizontal-table td:first-child {width: 52%; padding-left: 40px;}
+
+.block_purchases_table .horizontal-table thead th {color: #7d8e9d; font-size: 13px; vertical-align: bottom;}
+
+.block_purchases_table .horizontal-table td {color: #000; font-size: 14px;}
+.block_purchases_table .horizontal-table td span {color: #7d8e9d; font-size: 13px;}
+.block_purchases_table .horizontal-table td a {color: #000;}
+.block_purchases_table .horizontal-table td a:hover {color: #dd0103;}
+.block_purchases_table .horizontal-table tbody tr:hover {cursor:pointer;}
+.block_purchases_table .horizontal-table tbody tr:hover td a {color: #dd0103; border-bottom: 1px solid rgba(221, 1, 3, 0.3);-webkit-transition: all 0s; -moz-transition: all 0s; -ms-transition: all 0s; -o-transition: all 0s; transition: all 0s;}

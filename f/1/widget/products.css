@@ -1,0 +1,294 @@
+/** Список проектов **/
+
+.products_wrapper {
+    padding-left: 40px;
+}
+
+.products_wrapper_title {
+    /*padding-left: 9px;*/
+    font-family: DINPro-Light;
+}
+.products_wrapper_title a {
+    color: #dd0103;
+    border-bottom: 1px dotted #dd0103;
+    font-family: DINPro-Bold;
+}
+.products_wrapper_title a.civilian {
+    color: #005f9c;
+    border-bottom: 1px dotted #005f9c;
+}
+.products_wrapper_title b {
+    color: #000000;
+    font-family: DINPro-Bold;
+    border: none;
+    background: #dbe0e3;
+    padding: 0px 5px 0px 5px;
+    border-radius: 5px;
+    line-height: 40px;
+    height: 55px;
+    display: inline-block;
+}
+
+.sub_menu-products_civil b {
+    font-size: 15px;
+}
+
+.sub_menu-products_civil a {
+    /*font-size: 15px;*/
+    border-bottom: 1px dotted #0065b3;
+}
+
+
+.sub_menu-products_military a {
+    /*font-size: 15px;*/
+    /*border-bottom: 1px dotted #0065b3;*/
+}
+
+.sub_menu-products_military .item a {
+    color: #dd0103;
+    border-bottom: 1px dotted #dd0103;
+}
+
+.sub_menu-products_military .item.selected a {
+    color: #fff;
+    /*border-bottom: 1px dotted #dd0103;*/
+}
+
+.sub_menu-products_civil .item.selected{
+    background: #2b6dab;
+}
+
+.lead_2 {
+    color: #007ed0;
+    margin-bottom: 0;
+    padding-top: 15px;
+    line-height: 1.25;
+    font-size: 192%;
+    background: white;
+    padding-bottom: 15px;
+    max-width: inherit;
+    /*padding-left: 40px;*/
+}
+
+.lead_2.military {
+    color: #dd0103;
+}
+
+.products_block {
+    background: white;
+    padding-bottom: 0;
+}
+.products_block_row {
+    
+}
+.products_block_one {
+    width: 288px;
+    /*padding-left: 40px;*/
+    float: left;
+    position: relative;
+    display: block;
+    border: none !important;
+    overflow: hidden;
+    opacity: 0;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.products_block_one_ico {
+    position: relative;
+    margin-left: 40px;
+    min-height: 70px;
+}
+.products_block_one_ico > div {
+    display: block;
+    border: none !important;
+    position: relative;
+    bottom: 0px;
+}
+.products_block_one > .img_small_item {
+    position: relative;
+    z-index: 1;
+    display: block;
+    cursor: pointer;
+}
+.img_small_item_mask {
+    position: relative;
+    z-index: 1;
+    display: none;
+}
+.products_block_one > .img_big_item {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    opacity: 0;
+    /*width: auto;*/
+    height: 100%;
+    background: #253b4d;
+}
+
+.products_block_one > .img_big_item  img {
+    opacity: 0.6 !important;
+    /*height: inherit;*/
+    /*width: inherit;*/
+    min-width: 100%;
+    min-height: 100%;
+}
+.products_block_one .products_one_link {
+    position: relative;
+    z-index: 1;
+    margin: 9px 30px 28px 40px;
+    /*min-height: 49px;*/
+}
+
+/*.products_block_one a {
+    padding-top: 10px;
+    color: black;
+    border-bottom: 1px solid #3f3f3f;
+    font-size: 15px;
+    line-height: 22px;
+}*/
+.products_block_one.civilian span {
+    color: black;
+    border: none !important;
+    display: block;
+    line-height: 22px;
+}
+.products_block_one p {
+    color: black;
+    border-bottom: 1px solid #666666;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    text-transform: none;
+    font-family: DINPro-Regular;
+}
+
+.products_block_one.civilian p {
+    font-family: DINPro-Medium;
+}
+
+.products_block_one:hover {
+    background: #f3f4f8;
+    z-index: 5;
+}
+
+.products_block_one:hover p {
+    color: #007ed0 !important;
+    border-bottom: 1px solid rgba(0, 126, 208, 0.8) !important;
+}
+
+.products_block_one.civilian:hover p {
+    color: #e74d4e !important;
+    border-bottom: 1px solid #e74d4e !important;
+}
+
+.products_block_one_yes:hover p {
+    /*color: #e74d4e !important;*/
+    color: #fff !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8) !important;
+}
+
+.products_block_one_yes.civilian:hover p {
+    /*color: #e74d4e !important;*/
+    color: #fff !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8) !important;
+}
+
+
+.sub_menu.civilian .item.selected {
+    background: #dd0103;
+    border-radius: 2px;
+}
+
+.products_block_one_yes .products_one_link a {
+    /* -webkit-transition: all 0s !important; *//*-moz-transition: all 0s !important;-ms-transition: all 0s !important;-o-transition: all 0s !important;*/
+    /* transition: all 0s !important; */
+    -webkit-transition: all 0s;-moz-transition: all 0s;-ms-transition: all 0s;-o-transition: all 0s;transition: all 0s;
+}
+
+.civilian > .products_one_link p {
+    color: black;
+    border-bottom: 1px solid #666666;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    text-transform: none;
+    font-family: DINPro-Medium;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.civilian > .products_one_link span {
+    font-size: 16px;
+    margin-top: 6px;
+}
+
+.text_color {
+    color: #2b6dab !important;
+    border-bottom: 1px solid;
+}
+.civilian .text_color {
+    color: #e74d4e !important;
+    border-bottom: 1px solid !important;
+}
+
+.item.selected a {
+    color: #FFF;
+    border-bottom: none;
+}
+
+.item.selected a:hover{
+    color: #FFF;
+}
+
+.sub_menu-products .item {
+    cursor: pointer;
+    border-radius: 2px;
+}
+.sub_menu-products .item:hover {
+    background: #e6ebee;
+}
+
+.sub_menu-products.sub_menu-products_civil .item a:hover {
+    color: #0065b3;
+    border-color: rgba(0, 101, 179, 0.3);
+}
+
+.sub_menu-products.sub_menu-products_civil .item.selected a:hover {
+    color: #fff;
+
+}
+
+.sub_menu-products.sub_menu-products_military .item a:hover {
+    color: #dd0103;
+    border-bottom: 1px dotted #dd0103;
+}
+
+.sub_menu-products.sub_menu-products_military .item.selected a:hover {
+    color: #fff;
+
+}
+
+
+.sub_menu-products.sub_menu-products_military .item.selected:hover {
+    background: #dd0103;
+}
+
+.sub_menu-products.sub_menu-products_civil .item.selected:hover {
+    background: #2b6dab;
+}
+
+.sub_menu-products .selected, .sub_menu-products .selected {
+    cursor: default;
+}
+
+
+.products_eng_main .products_block {
+    padding-bottom: 0;
+}
+
+.other_products_block h3.widget_products_page {
+    font-family: 'DINPro-Light';
+    color: #4e6577;
+}

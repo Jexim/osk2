@@ -1,0 +1,122 @@
+.body404{
+    background: #253b4d;
+    text-align: center;
+    min-width: 960px;
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+    background: url('/f/1/media/h_line404.png') repeat-x bottom;
+    padding: 10px 0 5px;
+}
+
+#logo{
+    margin-left: 50px;
+    margin-top: -85px;
+}
+
+.e_left{
+    display: inline-block;
+    width: 210px;;
+}
+
+.e_right{
+    display: inline-block;
+    padding: 50px 0 0 50px;
+    text-align: left;
+
+}
+
+.e_right h1{
+    color: #fff;
+    font-family: 'DINPro-Regular';
+}
+
+.form_validate input[type="text"]{
+    background: #1c2c3a;
+    border: none;
+    font-size: 18px;
+    font-family: 'DINPro-Regular';   
+    width: 400px;
+    height: 40px;
+    color: #fff;
+}
+
+input:-moz-placeholder{
+    color: #526676;
+}
+
+input::-webkit-input-placeholder{
+    color: #526676;
+}
+
+.form_validate button{
+    font-size: 14px;
+    padding: 5px 10px;
+    height: 38px;
+    margin-left: -55px;
+    width: 60px;
+    text-align: center;
+}
+
+.form_validate{
+    margin-top: 50px;
+}
+
+.menu_404 li{
+    display: block;
+    float: left;
+    width: 50%;
+    margin: 5px 0;
+}
+
+.menu_404{
+    width: 600px;
+    margin-top: 50px;
+}
+
+.menu_404 a{
+    font-size: 18px;
+    color: #8b9ead;
+    font-family: 'DINPro-Regular';
+    text-decoration: none;
+    border-bottom: 1px solid #4d6070;
+}
+
+.menu_500 a{
+    font-size: 18px;
+    color: #8b9ead;
+    font-family: 'DINPro-Regular';
+    text-decoration: none;
+    border-bottom: 1px solid #4d6070;
+}
+
+.logo_eng {
+    background: url('/f/1/media/logo-eng.png') no-repeat !important;
+}
+
+.text_500{
+    color: #81a1b8;
+}
+
+.text_500 a{
+    color: #81a1b8;
+}
+
+.form_validate button[disabled=disabled]{
+    background-color: #34495a;
+    color: #5b7183;
+}
+
+.form_validate button{
+    padding: 6px 10px;
+    height: 40px;
+}
+
+.body500 #logo{
+    margin-top: 15px;
+} 
+
+.text_500 a {border-bottom: 1px solid rgba(77, 96, 112, 0.8);}
+.text_500 a:hover {color: #FFF; border-bottom: 1px solid rgba(255, 255, 255, 0.3);}

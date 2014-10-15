@@ -1,0 +1,59 @@
+.state_company_block {
+	width: 100%;
+	height: 212px;
+	background: #14202a;
+}
+.state_company_block_in {
+	max-width: 1400px;
+}
+.state_company_block_one {
+	width: 25%;
+	text-align: left;
+	height: 106px;
+	float: left;
+	position: relative;
+}
+.state_ico {
+	float: left;
+	width: 32%;
+	text-align: center;
+	height: 106px;
+	border: none !important;
+}
+.state_ico > span {
+	width: 1px;
+	height: 100%;
+	vertical-align: middle;
+	display: inline-block;
+}
+.state_ico > img {
+	vertical-align: middle;
+	max-width: 94%;
+	display: none;
+}
+.state_ico > img.active {
+	display: inline-block;
+}
+.state_link {
+	float: right;
+	width: 68%;
+	height: 106px;
+	padding-right: 30%;
+}
+.state_link > div {
+	display: table-cell;
+	height: 106px;
+	vertical-align: middle;
+}
+.state_link  a {
+	color: #576a79;
+	border-bottom: 1px solid;
+	font-size: 11px;
+}
+.state_link a:hover {
+	color: white;
+	border-bottom: 1px solid;
+}
+
+
+

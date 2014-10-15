@@ -1,0 +1,11 @@
+.news_text_no_img{
+    width: 100%;
+}
+
+.news_text_no_img .big_news_link{
+    padding-top: 10%;
+}
+
+.news_text_no_img p{
+    max-width: none;
+}
