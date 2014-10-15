@@ -28,7 +28,7 @@ $APPLICATION->AddHeadScript('/f/1/min/global/rus.js');
     );
     ?>
 </div>
-
+ 
 <!-- Фото-видео -->
 <?$APPLICATION->IncludeComponent("osk:rs.media_center_list", "widget", array("MAIN_PAGE"=>"Y"), false);?>
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
